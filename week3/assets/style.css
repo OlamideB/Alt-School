@@ -1,0 +1,28 @@
+
+.box-container{
+    display: flex;
+    border: 1px solid #ccc;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    height: 100vh;
+    
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+}
+.box:nth-child(1) {
+    background-color: red;
+    align-self: start;
+    flex: 1;
+}
+.box:hover{
+    background-color: black;
+    border-color: #999;
+
+}
